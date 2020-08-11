@@ -18,7 +18,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btAddSV;
+    private Button btAddSV;
+    private String test;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
